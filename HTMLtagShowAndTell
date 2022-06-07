@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+  <head>
+  		<meta charset="UTF-8">
+      <title>Page Title</title>
+  </head>
+  <body>
+    <p><strong>The Flatirons – May 1st, 2022</strong></p>
+    <p>An example of using the embed tag:</p>
+    <embed type="image/jpg" src="images/CJP_8017.jpg" width="600" height="400">
+  </body>
+</html>
