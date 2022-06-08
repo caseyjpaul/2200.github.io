@@ -1,0 +1,33 @@
+  h1 {
+      text-align: center;
+      vertical-align: top;
+      font-family: Courier;
+      }
+
+  h2 {
+    text-align: center;
+    vertical-align: top;
+    font-family: cursive;
+    }
+
+  .left {
+        text-align: left;
+        font-family: Verdana;
+        }
+
+  .center{
+        text-align: center;
+        font-family: impact;
+        letter-spacing: .75rem;
+    }
+
+  .right{
+        text-align: right;
+        font-family: didot;
+        font-size: 20px;
+        }
+
+  #come-in {
+    text-align: center;
+    font-family: didot;
+  }
