@@ -1,71 +1,58 @@
-
-body{
-  background-color: #8bd9cd;
-  margin-left: 50px;
-  /*#ffeeed;*/
-}
-
+body {
+    background-color: #cff7ff;
+    font-family: Courier;
+      }
 
 h1 {
-  font-variant: small-caps;
-  font-family: verdana;
-  font-weight: 350;
-  font-size: 30pt;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 10px;
+    margin-top: 60px;
+    padding-bottom: 0px;
+    font-size: 30pt;
+    font-weight: 500;
 }
+
+#sub-title{
+  text-align: center;
+  font-size: 16pt;
+}
+
+.section-headers {
+    text-align: center;
+    font-size: 23pt;
+    font-family: Courier;
+    color: #84bf78;
+    padding-top: 30px;
+
+}
+
+.sub-headers{
+  font-size: 14pt;
+  font-family: Courier;
+  font-weight: bold;
+}
+
 
 p {
-  font-size: 16px;
-  font-family: verdana;
+  text-align: center;
+  color: black;
+  font-size: 14pt;
+  margin-bottom: 50px;
+
 }
 
-.tg  {
-    border-collapse:collapse;
-    border-spacing:0;
-  }
 
+div {
+      /* play with these values */
+        background-color: white;
+        width: 55%;
+        border: 5px solid #e38e88;
+        padding: 10px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+          }
 
-.tg td{
-    border-color: #e38e88;
-    border-style:solid;
-    border-width:4px;
-    font-family:verdana;
-    font-size:16px;
-    overflow:hidden;
-    padding:15px 5px;
-    word-break:normal;
-  }
-
-
-.tg th{
-    border-color:#e38e88;
-    border-style:solid;
-    border-width:4px;
-    font-family:verdana;
-    font-size:18px;
-    font-weight:bold;
-    overflow:hidden;
-    padding:10px 5px;
-    word-break:normal;
-  }
-
-
-.tg tg-w747{
-    background-color:#dae8fc;
-    text-align:left;
-    vertical-align:top;
-  }
-
-
-.tg tg-hyan{
-    background-color:#34cdf9;
-    text-align:left;
-    vertical-align:top;
-    font-weight: bold;
-    font-color:#FF5A5F;
-  }
-
-
-.tg tg-0lax{
-  text-align:left;
-  vertical-align:top;
+a:hover {
+  font-weight: 500;
 }
