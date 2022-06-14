@@ -1,0 +1,98 @@
+body {
+    background-color: #d5edd1;
+    font-family: Courier;
+      }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu content1 content1 content1 content1 content1'
+    'menu content2 content2 content2 content2 content2'
+    'menu content3 content3 content3 content3 content3';
+  gap: 10px;
+  background-color: #84bf78;
+  padding: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+
+.grid-container>div { /* select all divs inside the class */
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+
+.sub-headers{
+  font-size: 14pt;
+  font-family: Courier;
+  font-weight: bold;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-size: 16pt;
+
+}
+
+.content {
+  color: #004346;
+  font-size: 14pt;
+  text-align: left;
+  }
+
+.contact{
+  text-align: center;
+  font-size: 16pt;
+}
+
+.item1 {
+  grid-area: header;
+  padding-top: 20px;
+}
+
+
+.item2 {
+  grid-area: menu;
+  text-align: left !important;
+  color: #84bf78;
+}
+
+
+.item3 {
+  grid-area: content1;
+  text-align: left !important;
+  color: #84bf78;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.item4 {
+  grid-area: content2;
+  text-align: left !important;
+  color: #84bf78;
+}
+
+
+.item5 {
+  grid-area: content3;
+  text-align: left !important;
+  color: #84bf78;
+}
