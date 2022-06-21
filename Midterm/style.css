@@ -1,5 +1,5 @@
 body {
-    height: 3900px;
+    height: 4100px;
     background: linear-gradient(#ffcc00, 0%, #FF9933 15%, #b01058 40%, #000066 90%);
     font-family: "Trebuchet MS";
     }
@@ -89,7 +89,7 @@ hr {
   /* background-color: rgba(255, 255, 255, 0.8); */
   /* text-align: center; */
   padding: 30px;
-  font-size: 24px;
+  font-size: 35px;
   /* border: 1px solid black; */
 }
 
