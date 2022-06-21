@@ -23,10 +23,10 @@ body {
    padding-top: 50px;
 
    /* Apply animation to this element */
-   animation: example2 5s ease-out;
+   animation: title 5s ease-out;
   }
   /* Move it (define the animation) */
-  @keyframes example2 {
+  @keyframes title {
    0%   {
    transform: translateX(200%);
    }
@@ -36,12 +36,41 @@ body {
   }
 
 
+.subtitle {
+   height: 140px;
+   /* overflow: hidden; */
+   position: relative;
+  }
 
-h2 {
+
+.subtitle h2 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   line-height: 30px;
+   text-align: center;
+   font-size: 20px;
+
+   /* Apply animation to this element */
+   animation: subtitle 5s ease-in;
+  }
+  /* Move it (define the animation) */
+  @keyframes subtitle {
+   0%   {
+   transform: translateX(200%);
+   }
+   100% {
+   transform: translateX(0%);
+   }
+  }
+
+
+/* h2 {
     font-size: 20px;
     text-align: center !important;
     margin: 8px;
-}
+} */
 
 
 hr {
