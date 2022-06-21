@@ -1,5 +1,5 @@
 body {
-    height: 14700px;
+    height: 4500px;
     background: linear-gradient(#ffcc00, 0%, #FF9933 15%, #b01058 40%, #000066 90%);
     font-family: "Trebuchet MS";
     }
@@ -66,12 +66,6 @@ body {
   }
 
 
-/* h2 {
-    font-size: 20px;
-    text-align: center !important;
-    margin: 8px;
-} */
-
 
 hr {
     height: .75px;
@@ -96,18 +90,59 @@ hr {
   /* text-align: center; */
   padding: 30px;
   font-size: 24px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .left-content {
   text-align: left !important;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: auto;
+  color: white;
   /* margin-left: 400px; */
 }
 
 
+.container2 {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: auto; */
+  width: 80%;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: white;
+}
+
+.container2:hover .overlay {
+  opacity: .94;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+  font-family: Didot,serif;
+  /* top: 50%; */
+  /* left: 80%; */
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 60%;
+  margin-left: 50%;
+}
 
 #goodnight {
   text-align: left;
@@ -117,6 +152,16 @@ hr {
   padding-top: 150px;
 
 }
+
+
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+
+
 
 /* .content {
   position: absolute;
