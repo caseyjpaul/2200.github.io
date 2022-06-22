@@ -1,5 +1,5 @@
 // API ENDPOINT
-const endPoint = "https://quotes.stormconsultancy.co.uk/random.json"
+const endPoint = "http://quotes.stormconsultancy.co.uk/random.json"
 
 console.log(endPoint);
 
