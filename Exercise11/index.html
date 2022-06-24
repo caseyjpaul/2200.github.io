@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Exercise 11</title>
+  <script type="text/javascript">
+
+    let nextItem = [];
+      nextItem[0] = prompt("Enter your name.");
+      nextItem[1] = prompt("Enter a place.");
+      nextItem[2] = prompt("Enter an adjective.");
+      nextItem[3] = prompt("Enter a noun.");
+
+    for (let i = 0; i < nextItem.length; i++) {
+      nextItem[i]; //telling it to give the user the next prompt, then the next, then the next
+    }
+
+    let date = new Date();
+    let d = "Date: " + date.getMonth() + "/" + date.getDate() + "/" + date.getFullYear() + " – ";
+    let madLib = d + " " + nextItem[0] + " is in " + nextItem[1] + " at the moment. They are probably busy with the " + nextItem[2] + ' ' + nextItem[3] + " at the moment. Please try again later!";
+
+    document.write(madLib);
+
+  </script>
+
+  <style>
+      body {
+          background-color: #538eed;
+            width: 100%;
+            font-size: 30px;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 1px solid #ebebeb;
+            font-family: giulia,sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+      .app {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 5px 5px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+          }
+
+  </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
